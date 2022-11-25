@@ -1,5 +1,5 @@
 import pathlib
-text = pathlib.Path('Day 1 Part 1\input_test.txt').read_text().split('\n')
+text = pathlib.Path('Day 1\Part 1\input_test.txt').read_text().split('\n')
 numbers = [int(line) for line in text]
 
 i = 0
